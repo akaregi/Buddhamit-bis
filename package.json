@@ -1,0 +1,27 @@
+{
+  "name": "buddhamit-bis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/ws": "^7.4.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "slash-commands": "^1.4.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.0",
+    "log4js": "^6.3.0",
+    "utf-8-validate": "^5.0.5"
+  },
+  "scripts": {
+    "start": "node ./app.mjs",
+    "register": "ts-node ./tasks/register.ts"
+  }
+}
